@@ -1,0 +1,24 @@
+module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    node: true
+  },
+  parserOptions: {
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false
+  },
+  extends: [
+    '@nuxtjs',
+    'plugin:nuxt/recommended'
+  ],
+  plugins: [
+  ],
+  // add your custom rules here
+  rules: {
+    'no-console': 'off',
+    'no-trailing-spaces': 'off',
+    'vue/html-closing-bracket-newline': 'off',
+    'vue/singleline-html-element-content-newline': 'off'
+  }
+}
