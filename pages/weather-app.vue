@@ -58,7 +58,7 @@
       <v-form @submit.prevent="fetchWeather(city)">
         <v-text-field
           v-model="city"
-          label="Enter City Name"
+          label="Type City Name and press Enter"
           solo
         />
       </v-form>

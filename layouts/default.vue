@@ -5,10 +5,14 @@
         dark
         src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
       >
-        <v-app-bar-nav-icon />
         <v-toolbar-title>WELCOME TO WEATHER APP</v-toolbar-title>
         <v-spacer />
         <v-toolbar-items class="hidden-sm-and-down">
+          <v-btn text>
+            <nuxt-link to="/">
+              Home
+            </nuxt-link>
+          </v-btn>
           <v-btn text>
             <nuxt-link to="/weather-app">
               Weather App
